@@ -83,10 +83,10 @@ Example:
 ![Image](https://i.ibb.co/ws629fs/image.png)
 
  
-`EPOS_API_SANDBOX_SEGMENT_ID`  : This can retrieved in the response body of the Get-Restaurant API CALL
-`EPOS_API_SANDBOX_SEGMENT_NAME` : This can retrieved in the response body of the Get-Restaurant API CALL
-`EPOS_API_SANDBOX_RESTAURANT_AREA_ID` : This can retrieved in the response body of the Get-Restaurant API CALL
-`EPOS_API_SANDBOX_TABLE_6_ID` : This can retrieved in the response body of the Get-Restaurant API CALL
-`EPOS_API_SANDBOX_TABLE_7_ID` : This can retrieved in the response body of the Get-Restaurant API CALL
-`EPOS_API_SANDBOX_API_TEST_CHANNEL_ID`: This can retrieved in the response body of the Get-Restaurant API CALL
-`EPOS_API_SANDBOX_FOREVER_PROMOTION_ID`:This can be retrieved in the response body of the Get Booking API CALL for a booking that has a promotion attached to it.
+`EPOS_API_SANDBOX_SEGMENT_ID`  : This can retrieved in the response body of the [Get-Restaurant API CALL](https://login.rdbranch.com/Admin/ApiAccount/EposDocumentation#GET-WebServices-Epos-v1-Restaurant-restaurantId)
+`EPOS_API_SANDBOX_SEGMENT_NAME` : This can retrieved in the response body of the [Get-Restaurant API CALL](https://login.rdbranch.com/Admin/ApiAccount/EposDocumentation#GET-WebServices-Epos-v1-Restaurant-restaurantId)
+`EPOS_API_SANDBOX_RESTAURANT_AREA_ID` : This can retrieved in the response body of the  [Get-Restaurant API CALL](https://login.rdbranch.com/Admin/ApiAccount/EposDocumentation#GET-WebServices-Epos-v1-Restaurant-restaurantId)
+`EPOS_API_SANDBOX_TABLE_6_ID` : This can retrieved in the response body of the [Get-Restaurant API CALL](https://login.rdbranch.com/Admin/ApiAccount/EposDocumentation#GET-WebServices-Epos-v1-Restaurant-restaurantId)
+`EPOS_API_SANDBOX_TABLE_7_ID` : This can retrieved in the response body of the  [Get-Restaurant API CALL](https://login.rdbranch.com/Admin/ApiAccount/EposDocumentation#GET-WebServices-Epos-v1-Restaurant-restaurantId)
+`EPOS_API_SANDBOX_API_TEST_CHANNEL_ID`: This can retrieved in the response body of the  [Get-Restaurant API CALL](https://login.rdbranch.com/Admin/ApiAccount/EposDocumentation#GET-WebServices-Epos-v1-Restaurant-restaurantId)
+`EPOS_API_SANDBOX_FOREVER_PROMOTION_ID`:This can be retrieved in the response body of the [Get Booking API CALL](https://login.resdiary.com/Admin/ApiAccount/EposDocumentation#GET-WebServices-Epos-v1-Restaurant-restaurantId-Booking-bookingId) for a booking that has a promotion attached to it.
