@@ -1,7 +1,7 @@
 # EPOSServiceConsumer
 
 This solution contains a series of Unit tests that should help you better understand the EPOS API implementation.
-You will require the following information to pass through to environment variables that can be edited in the App.config file of the solution.
+You will require the following information to pass through to environment variables that can be edited in the [App.config](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/RD-17292/C%23%20Examples/EposServiceConsumer/UnitTests/App.config) file that belongs to the Unit Tests of the solution.
 
 | Variable Names | Description |
 | --- | --- |
