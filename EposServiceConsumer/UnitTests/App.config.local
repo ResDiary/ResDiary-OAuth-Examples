@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <appSettings>
+    <add key="ConsumerKey" value="ITG4ck3Q6d6lB43ytvfwx9GFUUG6eSqg"/>
+    <add key="ConsumerSecret" value="u4Cg6LXCgVx4yLJmqGEryyO1GEaXNFGL"/>
+    <add key="OAuthEndpoint" value="http://localhost:51788/OAuth/V10a"/>
+    <add key="ServiceBaseUri" value="http://localhost:51788/WebServices/Epos/V1"/>
+    <add key="SecondSecret" value="ZUjYdAPJ44Tp6hwz"/>
+    <add key="DevelopmentRestaurantId" value="1008"/>
+  </appSettings>
+</configuration>

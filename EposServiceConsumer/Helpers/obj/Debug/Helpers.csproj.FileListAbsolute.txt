@@ -1,0 +1,17 @@
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\RD.EposServiceConsumer.Helpers.dll
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\RD.EposServiceConsumer.Helpers.pdb
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\DotNetOpenAuth.Core.dll
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\DotNetOpenAuth.OAuth.dll
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\System.Net.Http.dll
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\System.Net.Http.WebRequest.dll
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\DotNetOpenAuth.Core.xml
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\DotNetOpenAuth.OAuth.xml
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\System.Net.Http.xml
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\bin\Debug\System.Net.Http.WebRequest.xml
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\obj\Debug\Helpers.csprojAssemblyReference.cache
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\obj\Debug\Helpers.csproj.CoreCompileInputs.cache
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\obj\Debug\Helpers.csproj.CopyComplete
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\obj\Debug\RD.EposServiceConsumer.Helpers.dll
+C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\obj\Debug\RD.EposServiceConsumer.Helpers.pdb

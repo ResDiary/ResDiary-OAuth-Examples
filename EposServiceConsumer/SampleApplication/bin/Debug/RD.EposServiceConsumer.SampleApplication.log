@@ -1,0 +1,15 @@
+2019-09-09 15:39:21,354 INFO  [(null)]  : Starting Up
+2019-09-09 15:39:21,371 INFO  [(null)]  : Creating API client http://au.resdiary.com/WebServices/Epos/V1 with key=jacu3estanatHudR and secret=CrEmase8u55MeChU7reBrucRu3Ra3uSa
+2019-09-09 15:39:21,371 INFO  [(null)]  : Accessing restaurant 5133 with secondSecret=Of8sXTQ7QeYZs3Ee
+2019-09-09 15:39:28,322 FATAL [(null)]  : Unable to process message: Table: 50
+CloseDateTime: 09/09/2019 15:39:21
+Spend: 123.45
+ReceiptXml: <receipt/>
+
+System.Net.WebException: The remote server returned an error: (403) Forbidden.
+   at RD.EposServiceConsumer.Helpers.EposServiceClient.GetAccessToken() in C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\EposServiceClient.cs:line 392
+   at RD.EposServiceConsumer.Helpers.EposServiceClient.InvokeForContentType[T](String endpointMethod, HttpDeliveryMethods methods, String body, String contentType) in C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\EposServiceClient.cs:line 177
+   at RD.EposServiceConsumer.Helpers.EposServiceClient.InvokeJson[T](String endpointMethod, HttpDeliveryMethods methods, Object obj) in C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\EposServiceClient.cs:line 284
+   at RD.EposServiceConsumer.Helpers.EposServiceClient.GetRestaurant(Int32 restaurantId) in C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\Helpers\EposServiceClient.cs:line 57
+   at RD.EposServiceConsumer.SampleApplication.Program.UpdateTable(TableMessage message) in C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\SampleApplication\Program.cs:line 58
+   at RD.EposServiceConsumer.SampleApplication.Program.Main(String[] args) in C:\Users\clear\Desktop\EPOSServiceConsumer-master\EposServiceConsumer\SampleApplication\Program.cs:line 47
