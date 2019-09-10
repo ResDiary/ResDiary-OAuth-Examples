@@ -61,10 +61,15 @@ END POINT:https://app.rdbranch.com/OAuth/V10a?second_secret={{RDEposSecondSecret
 
 Authorization Parameters:  `EPOS_CONSUMER_KEY` and  `EPOS_CONSUMER_SECRET`
 
+Making this API request will result in generating a request token that will be used in Step 2 to create an Access Token.
+
 ### Step 2: Exchange your Request Token for an Access Token.
 END POINT:https://app.rdbranch.com/OAuth/V10a
 
 Authorization Parameters:`EPOS_CONSUMER_KEY` , `EPOS_CONSUMER_SECRET` , `REQUEST_TOKEN` (from step 1) and `TOKEN_SECRET`
+
+The access token that gets generated here, will be used to make any other API calls.
+
 
 ### Step 3: Use your Access Token to make your API request
 
