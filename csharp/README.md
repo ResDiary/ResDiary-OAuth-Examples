@@ -34,7 +34,7 @@ Authorization Parameters:  `EPOS_CONSUMER_KEY` and  `EPOS_CONSUMER_SECRET`
 
 Making this API request will result in generating a request token that will be used in Step 2 to create an Access Token.
 
-If you look at the  [TempMemoryTokenManager.c](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/RD-17292-v2/csharp/Helpers/TempMemoryTokenManager.cs)  , a method (StoreNewRequestToken) has been created that stores a newly generated unauthorized request token, secret, and optional application-specific parameters for later recall.
+If you look at the  [TempMemoryTokenManager.cs](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/RD-17292-v2/csharp/Helpers/TempMemoryTokenManager.cs)  , a method (StoreNewRequestToken) has been created that stores a newly generated unauthorized request token, secret, and optional application-specific parameters for later recall.
 
 ### Step 2: Exchange your Request Token for an Access Token.
 
@@ -44,7 +44,7 @@ Authorization Parameters:`EPOS_CONSUMER_KEY` , `EPOS_CONSUMER_SECRET` , `REQUEST
 
 The access token that gets generated here, will be used to make any other API calls.
 
-If you look at the [TempMemoryTokenManager.c](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/RD-17292-v2/csharp/Helpers/TempMemoryTokenManager.cs) , a method (ExpireRequestTokenAndStoreNewAccessToken) has been created that Deletes the request token and its associated secret and stores a new access token and secret. This is where the exchange happens.
+If you look at the [TempMemoryTokenManager.cs](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/RD-17292-v2/csharp/Helpers/TempMemoryTokenManager.cs) , a method (ExpireRequestTokenAndStoreNewAccessToken) has been created that Deletes the request token and its associated secret and stores a new access token and secret. This is where the exchange happens.
 
 ## C# Example :
 
