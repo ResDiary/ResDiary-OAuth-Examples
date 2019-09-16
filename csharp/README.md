@@ -48,7 +48,7 @@ If you look at the [TempMemoryTokenManager.cs](https://github.com/ResDiary/ResDi
 
 ## C# Example :
 
-Here is a C# example of the Epos Service Client using the above variables : 
+Here is a C# example of the Epos Service Client using the above variables:
 
 ```csharp
 string serviceBase = "EPOS_SERVICE_BASE_URI";
