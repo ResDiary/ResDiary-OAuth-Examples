@@ -33,7 +33,7 @@ namespace RD.EposServiceConsumer.UnitTests
             const string applicationVersion = "1.0.0.0";
             
             _client = new EposServiceClient(serviceBase, consumerKey, consumerSecret, secondSecret, oAuthEndpoint, applicationName, applicationVersion);
-            _client.getac
+          
         }
 
         public Booking CreateTestBooking()
@@ -85,7 +85,7 @@ namespace RD.EposServiceConsumer.UnitTests
          
             var restaurant = _client.GetRestaurant(_targetRestaurantId);
             
-            Assert.AreEqual(ConfigurationManager.AppSettings["RESTAURANT_NAME"], restaurant.Name);
+            Assert.AreEqual(ConfigurationManager.AppSettings["RESTAURANT_NAME"], restaurant.MicrositeName);
             Assert.AreEqual("GMT Standard Time", restaurant.TimeZone);
             Assert.AreEqual(1, restaurant.Segments.Count());
             Assert.IsNotEmpty(restaurant.Channels);
