@@ -30,7 +30,7 @@ The above variables should be provided to you by default and are all required fo
 
 END POINT:https://app.rdbranch.com/OAuth/V10a?second_secret={{RDEposSecondSecret}}&scope=http://app.restaurantdiary.com/WebServices/Epos/v1
 
-Authorization Parameters:  `EPOS_CONSUMER_KEY` and  `EPOS_CONSUMER_SECRET`
+Authorization Parameters: `EPOS_CONSUMER_KEY` and `EPOS_CONSUMER_SECRET`
 
 Making this API request will result in generating a request token that will be used in Step 2 to create an Access Token.
 
