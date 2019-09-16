@@ -10,7 +10,7 @@ You will require the following information to pass through to environment variab
 |`EPOS_SERVICE_OAUTH_URI` | https://app.rdbranch.com/OAuth/V10a |
 |`EPOS_SERVICE_BASE_URI` |http://app.rdbranch.com |
 |`EPOS_API_SECOND_SECRET`|The second secret for the restaurant you are trying to access.Varies per restaurant|
-|`EPOS_API_RESTAURANT_ID`|The Id of the restaurant you are trying to access.|
+|`EPOS_API_RESTAURANT_ID`|The ID of the restaurant you are trying to access.|
 
 | Additional Variables for Unit Testing      |Description|
 | --- | --- |
