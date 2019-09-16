@@ -1,1 +1,5 @@
 .vagrant/
+/.vs/slnx.sqlite
+/.vs/VSWorkspaceState.json
+/.vs/ResDiary-OAuth-Examples/v15/.suo
+.vs/
