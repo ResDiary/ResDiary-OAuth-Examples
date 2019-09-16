@@ -38,7 +38,7 @@ If you look at the  [TempMemoryTokenManager.cs](https://github.com/ResDiary/ResD
 
 ### Step 2: Exchange your Request Token for an Access Token.
 
-END POINT:https://app.rdbranch.com/OAuth/V10a
+END POINT: https://app.rdbranch.com/OAuth/V10a
 
 Authorization Parameters:`EPOS_CONSUMER_KEY` , `EPOS_CONSUMER_SECRET` , `REQUEST_TOKEN` (from step 1) and `TOKEN_SECRET`
 
