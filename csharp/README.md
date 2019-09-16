@@ -28,7 +28,7 @@ The above variables should be provided to you by default and are all required fo
 
 ### Step 1:  Get a Request Token
 
-END POINT:https://app.rdbranch.com/OAuth/V10a?second_secret={{RDEposSecondSecret}}&scope=http://app.restaurantdiary.com/WebServices/Epos/v1
+END POINT: https://app.rdbranch.com/OAuth/V10a?second_secret={{RDEposSecondSecret}}&scope=http://app.restaurantdiary.com/WebServices/Epos/v1
 
 Authorization Parameters: `EPOS_CONSUMER_KEY` and `EPOS_CONSUMER_SECRET`
 
