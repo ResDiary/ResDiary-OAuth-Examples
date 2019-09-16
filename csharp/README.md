@@ -34,7 +34,7 @@ Authorization Parameters:  `EPOS_CONSUMER_KEY` and  `EPOS_CONSUMER_SECRET`
 
 Making this API request will result in generating a request token that will be used in Step 2 to create an Access Token.
 
-If you look at the  [TempMemoryTokenManager.cs](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/RD-17292-v2/csharp/Helpers/TempMemoryTokenManager.cs)  , a method (StoreNewRequestToken) has been created that stores a newly generated unauthorized request token, secret, and optional application-specific parameters for later recall.
+If you look at the  [TempMemoryTokenManager.cs](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/RD-17292-v2/csharp/Helpers/TempMemoryTokenManager.cs), a method (StoreNewRequestToken) has been created that stores a newly generated unauthorized request token, secret, and optional application-specific parameters for later recall.
 
 ### Step 2: Exchange your Request Token for an Access Token.
 
