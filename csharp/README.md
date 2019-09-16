@@ -65,6 +65,9 @@ Looking at the [EposServiceClient.cs](https://github.com/ResDiary/ResDiary-OAuth
 
 ### Step 3: Use your Access Token to make your API request
 
+Now that you have seen the oAuth 2.0 process, you can follow the examples found in the [EposTests.cs](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/master/csharp/UnitTests/EposTests.cs) unit tests file. 
+
+
 ## The Remaining Variables
 
 `EPOS_API_RESTAURANT_ID`: Your restaurant ID should be known to you and it can also be found when logging on to your diary (and it can also be retrieved in the response body of the Get-Restaurant API CALL). It is part of the the number at the end of the URL, before any query string parameters:
