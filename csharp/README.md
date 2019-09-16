@@ -46,7 +46,7 @@ The access token that gets generated here, will be used to make any other API ca
 
 If you look at the [TempMemoryTokenManager.cs](https://github.com/ResDiary/ResDiary-OAuth-Examples/blob/RD-17292-v2/csharp/Helpers/TempMemoryTokenManager.cs), a method (ExpireRequestTokenAndStoreNewAccessToken) has been created that deletes the request token and its associated secret and stores a new access token and secret. This is where the exchange happens.
 
-## C# Example :
+## C# Example
 
 Here is a C# example of the Epos Service Client using the above variables:
 
