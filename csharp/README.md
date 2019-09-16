@@ -69,4 +69,4 @@ Looking at the [EposServiceClient.cs](https://github.com/ResDiary/ResDiary-OAuth
 
 `EPOS_API_RESTAURANT_ID`: Your restaurant ID should be known to you and it can also be found when logging on to your diary (and it can also be retrieved in the response body of the Get-Restaurant API CALL). It is part of the the number at the end of the URL, before any query string parameters:
 Example:
-![Image](https://i.ibb.co/ws629fs/image.png)
+![Image](restaurant-id.png)

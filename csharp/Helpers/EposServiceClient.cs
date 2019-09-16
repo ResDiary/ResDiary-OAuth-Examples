@@ -37,7 +37,7 @@ namespace RD.EposServiceConsumer.Helpers
             _accessToken = string.Empty;
         }
 
-        public EposServiceClient(string serviceEndpoint, string key, string secret, string secondSecret, string oAuthEndpoint, string applicationName, string applicationVersion, string testName = "")
+        public EposServiceClient(string serviceEndpoint, string key, string secret, string secondSecret, string oAuthEndpoint, string applicationName, string applicationVersion)
         {
             _serviceEndpoint = new Uri(serviceEndpoint);
             _key = key;
@@ -47,7 +47,7 @@ namespace RD.EposServiceConsumer.Helpers
             _accessToken = string.Empty;
             _applicationName = applicationName;
             _applicationVersion = applicationVersion;
-            _testName = testName;
+    
         }
 
         #region Implementation of IEposServiceClient
@@ -428,9 +428,5 @@ namespace RD.EposServiceConsumer.Helpers
             return consumer;
         }
 
-        public string Test()
-        {
-            return InvokeJson<string>("/Test");
-        }
     }
 }
