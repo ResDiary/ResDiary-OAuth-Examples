@@ -53,7 +53,7 @@ You will require the following information to pass through to environment variab
 
 The Consumer Key and Consumer Secret are standard parts of OAuth, but the Second Secret and Scope are specific to our implementation. 
 
-The above variables should be provided to you by default and are all requried for gaining access to the rest of the API.
+The above variables should be provided to you by default and are all required for gaining access to the rest of the API.
 
 ### Step 1:  Get a Request Token
 
